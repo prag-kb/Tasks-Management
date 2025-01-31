@@ -1,14 +1,14 @@
 import "./App.css";
 import Tasks from "./components";
 
-// export interface DataType {
-//   id: string
-//   title: string
-//   description: string
-//   completed: Boolean
-// }
+export interface DataType {
+  id: number;
+  title: string;
+  description: string;
+  completed: Boolean;
+}
 
-export const SampleJSON = [
+export const SampleJSON: DataType[] = [
   {
     id: 1,
     title: "a",
