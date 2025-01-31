@@ -11,20 +11,20 @@ export interface DataType {
 export const SampleJSON: DataType[] = [
   {
     id: 1,
-    title: "a",
-    description: "a",
+    title: "Task 1",
+    description: "Task1",
     completed: false,
   },
   {
     id: 2,
-    title: "b",
-    description: "bb",
+    title: "Task 2",
+    description: "Task 22",
     completed: false,
   },
   {
     id: 3,
-    title: "c",
-    description: "cc",
+    title: "Task 3",
+    description: "Task 33",
     completed: false,
   },
 ];

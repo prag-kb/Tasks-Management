@@ -74,6 +74,7 @@ const List = ({ listData, setData }: Props) => {
                     textDecorationLine: !!x?.completed
                       ? "line-through"
                       : "none",
+                    fontWeight: "bold",
                   }}
                 >
                   {x?.title}
